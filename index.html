@@ -70,7 +70,7 @@
        <div class="col-lg-6 text-center heading-section mb-5">
             
             <h2 class="text-black mb-2">SCRIPTING VIA COMMAND PROMPT</h2>
-            <p>In some cases due to  powershell compatibility issue (lower version) we can't automate the scripts in such cases we can execute the same fuctionality via command prompt not all action executable cmd lags in managing the registry to WMI (Windows Management Instrumentation) can be exposed only via powershell cmdlets.</p>
+            <p>In some cases due to  powershell compatibility issue (lower version) we can't automate the scripts via tools in such cases we can execute the same fuctionality via command prompt not all action executable cmd lag in managing the registry to WMI (Windows Management Instrumentation) can be exposed only via powershell cmdlets.</p>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
               </h3>
               <div id="collapseFive" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="body-text">
-                  <p>cmd is nothing but a cli used to execute most of the task which makes ease of action also called as a terminal execution</p>
+                  <p>Command Prompt is a cli (command-line interface) used to execute most of the task  which makes ease of automation action also called as a terminal execution</p>
                 </div>
               </div>
             </div> 
@@ -103,22 +103,22 @@
 
             <div class="accordion-item">
               <h3 class="mb-0 heading">
-                <a class="btn-block" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix">CMD FLIE <span class="icon"></span></a>
+                <a class="btn-block" data-toggle="collapse" href="#collapseSix" role="button" aria-expanded="false" aria-controls="collapseSix">COMMAND PROMPT <span class="icon"></span></a>
               </h3>
               <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="body-text">
-                  <p>CMD file is a script file that contains one or more commands in plain text format that are executed in order to perform various tasks via CLI. It is similar to a .BAT file, which is also commonly used to store a batch of executable commands</p>
+                  <p>Command Prompt file is a script file that contains one or more commands in plain text format that are executed in order to perform various tasks via CLI. It is similar to a .BAT file, which is also commonly used to store a batch of executable commands</p>
                 </div>
               </div>
             </div> <!-- .accordion-item -->
 
             <div class="accordion-item">
               <h3 class="mb-0 heading">
-                <a class="btn-block" data-toggle="collapse" href="#collapseSeven" role="button" aria-expanded="false" aria-controls="collapseSeven">CMD as malware file. <span class="icon"></span></a>
+                <a class="btn-block" data-toggle="collapse" href="#collapseSeven" role="button" aria-expanded="false" aria-controls="collapseSeven">COMMAND PROMPT as malware file <span class="icon"></span></a>
               </h3>
               <div id="collapseSeven" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="body-text">
-                  <p>Yes, cmd can be used for malware functionality, which stores lot of executable commands lets take a scenario what happens if large executable file opened out for 100 times in a single shot leads to hang and OS crash. never double-click a CMD file you have downloaded or received via an email attachment or in any site unless you can verify the legitimacy of the source just open in a text editor and verify first.</p>
+                  <p>Yes, COMMAND PROMPT .cmd can be used for malware functionality, which stores lot of executable commands lets take a scenario what happens if large executable file opened out for 100 times in a single shot leads to hang and OS crash.Mitigation-never double-click a CMD file which you have downloaded or received via an email attachment or in any site unless you can verify the legitimacy of the source just open in a text editor and verify first.</p>
                 </div>
               </div>
             </div> <!-- .accordion-item -->
@@ -129,7 +129,7 @@
               </h3>
               <div id="collapseEight" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="body-text">
-                   <p>normally any services can be stop/start/disable in service.msc (manually) also via powershell script (automation) same can be done in command prompt (automation) using net and sc utilities but cmd lags in managing the registry to WMI (Windows Management Instrumentation) can be exposed only via powershell cmdlets.</p>
+                   <p>normally any services can be stop/start/disable in service.msc (manually) also via powershell script (automation) same can be done in command prompt (automation) using net and sc utilities but cmd lag in managing the registry to WMI (Windows Management Instrumentation) can be exposed only via powershell cmdlets.</p>
                 </div>
               </div>
             </div> <!-- .accordion-item -->
@@ -154,7 +154,7 @@
     <p class="mb-4">1-show Running services command-<strong> sc queryex type=service </strong>which shows all the running active services.</p>
                <p class="mb-4">2-command to stop services-<strong> net stop (service)</strong>this command used to stop services.</p>
                <p class="mb-4">3-open the text editor list all the services which needs to be stopped out and save the file in extension type-<strong> .CMD</strong> format </p>
-                 <p class="mb-4">4-fetch the file location from -<strong>CMD</strong> run the file, you can check out the services it should be in stop state.</p>
+                 <p class="mb-4">4-fetch the file location from -<strong>command prompt</strong> run the file with .cmd extension, you can check out the services it should be in stop state.</p>
                  <p class="mb-4">5-Check out the -<strong>video</strong> for ease understanding</p>
               </div>
             </div>
@@ -176,7 +176,7 @@
                 <p class="mb-4">1-show stopped services command-<strong> sc queryex type=service state=inactive </strong>which shows all the stop  services.</p>
                <p class="mb-4">2-command to start services-<strong> net start (service)</strong>this command used to start services.</p>
                <p class="mb-4">3-open the text editor list all the services which needs to be started out and save the file in extension type-<strong> .CMD</strong> format </p>
-                 <p class="mb-4">4-fetch the file location from -<strong>CMD</strong> run the file, you can check out the services it should be in start state.</p>
+                 <p class="mb-4">4-fetch the file location from -<strong>command prompt</strong> run the file with .cmd extension, you can check out the services it should be in start state.</p>
                  <p class="mb-4">5-Check out the -<strong>video</strong> for ease understanding</p>
                 
               </div>
@@ -202,7 +202,7 @@
             <h2 class="text-black">Invoking a PowerShell script via cmd.exe</h2>
               <p>Yes, we can run powershell script via command prompt all the shell scripts are executable in the format .ps1,create a PowerShell script in the PowerShell ISE, or in any text editor includes Notepad.Make sure to save the script with the extension .ps1 </p>
               <p>Execution-fetch the path of the file location then copy paste location in a notepad and infront of it include this <strong> command powershell</strong> (example-powershell -command "C:\technoids\start.ps1")</p>
-              <p>Reference command will be like this - <strong>powershell -command "C:\technoids\start.ps1"</strong></p>
+              <p>Reference command will be like in this format - <strong>powershell -command "C:\technoids\start.ps1"</strong></p>
               <p>Run the command it should  execute sucessfully, check out the video for keen view.</p>
           </div>
         </div>
